@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/images/logo.png';
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div style={styles.top}>
                     <div style={styles.brand}>
-                        <h2 style={{ color: 'var(--primary-red)', marginBottom: '10px' }}>CHEETA SUPPLEMENTS</h2>
+                        <img src={logo} alt="Cheetah Supplements" style={{ height: '60px', marginBottom: '15px' }} />
                         <p style={{ color: 'var(--text-gray)' }}>Fuel Your Fitness</p>
                     </div>
 

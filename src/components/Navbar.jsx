@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +8,7 @@ const Navbar = () => {
         <nav style={styles.nav}>
             <div className="container" style={styles.container}>
                 <div style={styles.logo}>
-                    <span style={{ color: 'var(--primary-red)' }}>CHEETA</span> SUPPLEMENTS
+                    <img src={logo} alt="Cheetah Supplements" style={{ height: '50px', objectFit: 'contain' }} />
                 </div>
 
                 <div style={styles.desktopMenu}>
