@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
 
                 <div style={styles.contact}>
-                    <p>Contact us: support@cheetahsupplements.com | +1 (123) 456-7890</p>
+                    <p>Contact us: cheetahsuppelents@gmail.com | +91 9813311764</p>
                 </div>
 
                 <div style={styles.bottom}>
